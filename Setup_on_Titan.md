@@ -53,11 +53,12 @@ I used `gcc/4.8.2` here. To load the same module, put these lines in your `~/.ba
   module load boost
 ```
  
-### Some useful file
+### Some useful files
 
-  1. configure script
+There are located on ORNL machine. To access it, please to directory `/ccs/home/lei/scripts/example`. Copy them to your `specfem3d_globe` source code home dir.
 
-  2. compile script
-  
-  3. job submission script
+  1. `configure.titan.bash`: run this file first to configure the Makefile.
+  2. `compile.titan.bash`: run this file to compile the code.
+  3. `job_mesh.bash`: submit this file to job queue to run the mesher.
+  4. `job_solver.bash`: sumit this file to job queue to run the solver.
 
