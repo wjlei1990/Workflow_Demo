@@ -38,7 +38,7 @@ Use specfem to calculcate the kernels.
 3. **ASDF** as thye output synthetic waveform file format: we used to use sac binary as the waveform file format. Now for faster processsing speed, we transfer to ASDF. It is a external library which is not on Titan yet, so you need to install the library in your home dir first. Check out the library [here](https://github.com/SeismicData/asdf-library)
   * configure the Makefile by adding `--with-asdf ASDF_LIBS="/path/to/asdf-library/libasdf.a"`
 
-A example configure to use all the above features would be:
+A example configure to use all the above features(on Titan) would be:
 ```
 ./configure --with-asdf ASDF_LIBS="/ccs/home/lei/bin/asdf-library/build/lib/libasdf.a" --with-adios --with-cuda=cuda5 --host=x86_64-unknown-linux-gnu MPIF90=$mpif90 F90=$f90 CC=$cc FLAGS_CHECK="$flags" FCFLAGS="" CFLAGS="$cflags" CUDA_INC="$CUDATOOLKIT_HOME/include" CUDA_LIB="$CUDATOOLKIT_HOME/lib64" MPI_INC="$CRAY_MPICH2_DIR/include"
 ```
