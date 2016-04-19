@@ -2,6 +2,9 @@
 
 Specfem3d globe is used for forward solver and adjoint solver.
 
+Tutorial: I put a tutorial on [google drive](https://drive.google.com/file/d/0B7lccGZgvREBdUlXdnZReDV5SlU/view). You 
+may download and view it.
+
 ##### Forward solver
 Use specfem to simulate forward wavefield and generate synthetic data.
 
@@ -21,4 +24,8 @@ You should be able to genrate the sac files after forward simulation.
 ##### Adjoint solver
 Use specfem to calculcate the kernels.
 
+---
+Some useful links:
+1. [Specfem workshop at Indiana University, 2015](https://github.com/wjlei1990/USArray2015_SPECFEM)
+2. [Specfem workshop at Princeton University, 2016](https://github.com/wjlei1990/ComputationalGeophysicsWorkshop)
 
