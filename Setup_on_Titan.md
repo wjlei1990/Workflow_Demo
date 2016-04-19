@@ -26,8 +26,33 @@ Currently Loaded Modulefiles:
  16) dmapp/7.0.1-1.0502.11080.8.74.gem     33) gcc/4.8.2
  17) gni-headers/4.0-1.0502.10859.7.8.gem
 ```
-I used `gcc/4.8.2` here.
+I used `gcc/4.8.2` here. To load the same module, put these lines in your `~/.bashrc` file:
+```
+module unload PrgEnv-cray
+  module unload PrgEnv-pgi
+  module unload PrgEnv-ifort
+  module load PrgEnv-gnu
 
+  module load cudatoolkit
+
+  module unload gcc
+  module load gcc/4.8.2
+  module swap cray-libsci cray-libsci/13.1.0
+  module swap cray-mpich cray-mpich/7.2.4
+  #module load gcc/4.7.2
+  module load cray-netcdf-hdf5parallel/4.3.1
+  #module load cray-netcdf-hdf5parallel
+  module load cray-hdf5-parallel/1.8.12
+  module load szip/2.1
+  module load mxml/2.9
+  module load adios/1.8.0
+  module load rca
+  module load git/2.3.2
+
+  module load cmake
+  module load boost
+```
+ 
 ### Some useful file
 
   1. configure script
