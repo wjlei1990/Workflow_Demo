@@ -28,7 +28,7 @@ Currently Loaded Modulefiles:
 ```
 I used `gcc/4.8.2` here. To load the same module, put these lines in your `~/.bashrc` file:
 ```
-module unload PrgEnv-cray
+  module unload PrgEnv-cray
   module unload PrgEnv-pgi
   module unload PrgEnv-ifort
   module load PrgEnv-gnu
