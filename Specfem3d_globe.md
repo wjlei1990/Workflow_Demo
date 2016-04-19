@@ -26,6 +26,6 @@ Use specfem to calculcate the kernels.
 
 ---
 Some useful links:
-1. [Specfem workshop at Indiana University, 2015](https://github.com/wjlei1990/USArray2015_SPECFEM)
-2. [Specfem workshop at Princeton University, 2016](https://github.com/wjlei1990/ComputationalGeophysicsWorkshop)
+ 1. [Specfem workshop at Indiana University, 2015](https://github.com/wjlei1990/USArray2015_SPECFEM)
+ 2. [Specfem workshop at Princeton University, 2016](https://github.com/wjlei1990/ComputationalGeophysicsWorkshop)
 
