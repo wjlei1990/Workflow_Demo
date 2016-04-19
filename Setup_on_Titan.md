@@ -62,3 +62,6 @@ There are located on ORNL machine. To access it, please to directory `/ccs/home/
   3. `job_mesh.bash`: submit this file to job queue to run the mesher.
   4. `job_solver.bash`: sumit this file to job queue to run the solver.
 
+### Example code:
+I put my example run code at `/lustre/atlas/proj-shared/geo111/Wenjie/bm_specfem/specfem3d_globe` on ORNL machine.
+
