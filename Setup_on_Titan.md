@@ -1,4 +1,4 @@
-### Introduction
+## Introduction
 
 This file includes some setup on Titan@ORNL.
 
